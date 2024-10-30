@@ -15,17 +15,6 @@ Practice Again: Feel free to retake the quiz as many times as you like to improv
 Installation
 To run this quiz locally, follow these steps:
 
-Clone the repository:
-
-bash
-Copy code
-git clone [repository-url]
-Navigate to the project directory:
-
-bash
-Copy code
-cd wildlife-ecology-quiz
-Open index.html in your web browser to start the quiz.
 
 Technologies Used
 HTML
