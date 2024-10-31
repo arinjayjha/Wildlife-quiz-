@@ -144,16 +144,44 @@
             color: #ccc;
             /* Lighter text for dark mode */
         }
+
+        .week-by-week-btn {
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .week-by-week-btn:hover {
+            background-color: #218838;
+        }
+
+        body.dark-mode .week-by-week-btn {
+            background-color: #444;
+            color: #fff;
+        }
+
+        body.dark-mode .week-by-week-btn:hover {
+            background-color: #666;
+        }
     </style>
 </head>
 
 <body>
 
     <button class="toggle-btn" id="darkModeToggle">Toggle Dark Mode</button>
+    <button class="week-by-week-btn" onclick="window.location.href='https://wildlife-weekbyweek.vercel.app/'">Week by
+        Week Quiz</button>
 
     <div class="quiz-container">
         <h1>Wildlife Ecology Quiz</h1>
-        <div id="question-number"></div> <!-- New div for question number -->
+        <div id="question-number"></div>
         <div id="quiz"></div>
         <div class="result" id="result"></div>
     </div>
@@ -171,6 +199,8 @@
             document.body.classList.toggle("dark-mode");
         });
     </script>
+</body>
+
 </body>
 
 </html>
