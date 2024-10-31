@@ -64,12 +64,12 @@ const quizData = [
     {
         "question": "The laboratory approach to Ecology uses",
         "options": ["equations", "models", "observations", "experiments"],
-        "answer": "models"
+        "answer": "experiments"
     },
     {
         "question": "The diversity that exists among different geographies is",
         "options": ["alpha (α) biodiversity", "beta (β) biodiversity", "gamma (γ) biodiversity", "delta (δ) biodiversity"],
-        "answer": "beta (β) biodiversity"
+        "answer": "gamma (γ) biodiversity"
     },
     {
         "question": "The hierarchical system was given by",
@@ -94,7 +94,7 @@ const quizData = [
     {
         "question": "There is more biodiversity in areas with",
         "options": ["less competition, less predation", "less competition, more predation", "more competition, more predation", "more competition, less predation"],
-        "answer": "less competition, more predation"
+        "answer": "more competition, more predation"
     },
     {
         "question": "For more biodiversity, the level of disturbance should be",
@@ -104,7 +104,7 @@ const quizData = [
     {
         "question": "Birds on giraffe are an example of",
         "options": ["colony", "commensalism", "protocooperation", "allelopathy"],
-        "answer": "commensalism"
+        "answer": "protocooperation"
     },
     {
         "question": "Egrets with buffaloes are an example of",
@@ -124,7 +124,7 @@ const quizData = [
     {
         "question": "Harmonious interactions occur where",
         "options": ["at least one participant is benefited", "at least one participant is unharmed", "both participants are benefitted", "both participants are unharmed"],
-        "answer": "both participants are benefitted"
+        "answer": "both participants are unharmed"
     },
     {
         "question": "Hamilton's rule can be stated as",
@@ -239,7 +239,7 @@ const quizData = [
     {
         "question": "Which of these is true?",
         "options": ["Physiological longevity > Ecological longevity", "Physiological longevity = Ecological longevity", "Physiological longevity < Ecological longevity", "a or b"],
-        "answer": "Physiological longevity > Ecological longevity"
+        "answer": "a or b"
     },
     {
         "question": "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
@@ -290,7 +290,7 @@ const quizData = [
     {
         "question": "A species found most frequently in a particular community, but also present occasionally in others is called",
         "options": ["accidental species", "indifferent species", "selective species", "exclusive species"],
-        "answer": "indifferent species"
+        "answer": "selective species"
     },
     {
         "question": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
@@ -300,7 +300,7 @@ const quizData = [
     {
         "question": "Which of these is correct?",
         "options": ["Fundamental niche > Realised niche", "Fundamental niche = Realised niche", "Fundamental niche < Realised niche", "a or b"],
-        "answer": "Fundamental niche > Realised niche"
+        "answer": "a or b"
     },
     {
         "question": "Which of these is not a characteristic of pioneer species",
@@ -439,7 +439,7 @@ const quizData = [
     {
         "question": "___ is used to identify which potential impacts are relevant to assess.",
         "options": ["screening", "scoping", "reporting", "review"],
-        "answer": "screening"
+        "answer": "scoping"
     },
     {
         "question": "Which of these is a preventive check according to Malthus?",
